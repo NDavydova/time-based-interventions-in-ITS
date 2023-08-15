@@ -1,0 +1,132 @@
+<!DOCTYPE html><html><head>    
+    <meta charset="UTF-8">
+    <!-- generator meta tag -->
+    <!-- leave this for stats and Silex version check -->
+    <meta name="generator" content="Silex v2.2.5">
+    <!-- End of generator meta tag -->
+    <!--CSS-->
+    <link data-silex-static="true" href="https://cdn.ctat.cs.cmu.edu/html-editor/css/silex/normalize.css" rel="stylesheet">
+    <link data-silex-static="true" href="https://cdn.ctat.cs.cmu.edu/html-editor/css/silex/front-end.css" rel="stylesheet">
+    <link data-silex-static="true" href="https://cdn.ctat.cs.cmu.edu/releases/current/CTAT.css" rel="stylesheet">
+   <style>
+        .CTAT-done-button--icon { /* for the checkmark */
+            font-size: 0px;
+        }
+
+
+    </style>
+
+    <script>
+        var myVars =
+        {
+            question_file: "../FinalBRDs/Page15-5.brd",
+            tutoring_service_communication: "javascript",
+
+//logging parameters
+dataset_level_name: "Questionnaire",
+dataset_level_type: "Questionnaire",
+dataset_name:"ExperimentalGroup",
+Logging:"ClientToLogServer",
+log_service_url:"http://83.212.82.142/data.log",
+problem_name:"Questionnaire",
+};
+
+
+
+function ctatOnload () {
+initTutor(myVars);
+CTATConfiguration.set("user_guid", localStorage.getItem("studentID"));
+
+var loggingLibrary=CTATCommShell.getLoggingLibrary();
+loggingLibrary.start();
+
+
+loggingLibrary.assignLogListener (function logListener (aMessage)
+{
+console.log ("Log message: " + aMessage );
+
+ });
+}
+        var CTATLanguagePack =
+        {
+            "DONE": "Next",
+        };
+
+        </script>
+    <script data-silex-static="true" type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/html-editor/js/jquery.js"></script>
+    <script data-silex-static="true" type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/html-editor/js/jquery-ui.js"></script>
+    <script data-silex-static="true" type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/releases/current/nools.js"></script>
+    <script data-silex-static="true" type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/releases/current/ctatloader.js"></script>
+    <script data-silex-static="true" type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/html-editor/js/ctat/ctat.min.js"></script>
+    
+    
+    
+
+    
+
+
+
+    <style type="text/css" class="silex-style"></style>
+    
+    <meta name="interface-id" content="Page15.5">
+
+
+
+
+
+    
+
+    <style id="current-page-style">
+        .page-page-1{display:inherit; }
+    </style>
+    
+    <!-- Silex HEAD tag do not remove -->
+    <!-- End of Silex HEAD tag do not remove -->
+<link rel="stylesheet" href="Assets/Page15.5-styles.css"></head><body class="body-initial prevent-draggable silex-runtime silex-published">
+    <a id="page-page-1" data-silex-type="page" class="page-element">Page 1</a>
+    <div data-silex-id="background-initial" class="background background-initial editable-style container-element prevent-draggable" data-silex-type="container">
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1656339358462-1 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1656339358462-1" id="ctatdiv6" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true" contenteditable="false">Did you notice that you could only submit your solution after a certain time threshold was passed?</div>
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1656339448184-2 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1656339448184-2" id="ctatdiv9" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true" contenteditable="false">If you noticed the restriction in submission, how did you perceive it?</div>
+        <div data-silex-type="ctat" class="CTATComboBox editable-style silex-id-1656339571013-4 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1656339571013-4" id="question1" data-ctat-component="CTATComboBox" data-ctat-enabled="true" data-ctat-tutor ="false"  data-ctat-labels="----, Yes, No"></div>
+        <div data-silex-type="ctat" class="CTATComboBox editable-style silex-id-1656339587968-5 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1656339587968-5" id="question2" data-ctat-component="CTATComboBox" data-ctat-enabled="true" data-ctat-tutor ="false"  data-ctat-labels="----, helpful, neutral, disruptiv, I didn't notice that restriction"></div>
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1656339606737-6 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1656339606737-6" id="ctatdiv15" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true" contenteditable="false">Did you notice that a hint button will appear after a certain time threshold was passed?</div>
+        <div data-silex-type="ctat" class="CTATComboBox editable-style silex-id-1656339747408-7 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1656339747408-7" id="question3" data-ctat-component="CTATComboBox" data-ctat-enabled="true" data-ctat-tutor ="false" data-ctat-labels="----, Yes, No"></div>
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1656339880117-8 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1656339880117-8" id="ctatdiv22" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true" contenteditable="false">If you noticed the hint button, how did you perceive it?</div>
+        <div data-silex-type="ctat" class="CTATComboBox editable-style silex-id-1656339959245-10 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1656339959245-10" id="question4" data-ctat-component="CTATComboBox" data-ctat-enabled="true" data-ctat-tutor ="false" data-ctat-labels="----, helpful, neutral, disruptiv, I didn't notice that restriction"></div>
+        <div data-silex-type="ctat" id="done" class="CTATDoneButton editable-style silex-id-1656339986779-11 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1656339986779-11" data-ctat-component="CTATDoneButton" data-ctat-enabled="true"></div>
+        
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1656339991929-12 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1656339991929-12" id="question5-tag" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true" contenteditable="false">If you have any further comments or suggestions, feel free to leave them here:</div>
+        
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1656339991929-120 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1656339991929-120" id="question5-tag1" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true" contenteditable="false">I like...</div>
+        <div data-silex-type="ctat" class="CTATTextInput editable-style silex-id-1656340024821-130 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1656340024821-130" id="question5-1" data-ctat-component="CTATTextInput" data-ctat-enabled="true" data-ctat-tutor ="false"></div>
+   
+   
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1656339991929-121 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1656339991929-121" id="question5-tag2" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true" contenteditable="false">I wish...</div>
+        <div data-silex-type="ctat" class="CTATTextInput editable-style silex-id-1656340024821-131 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1656340024821-131" id="question5-2" data-ctat-component="CTATTextInput" data-ctat-enabled="true" data-ctat-tutor ="false"></div>
+   
+
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1656339991929-122 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1656339991929-122" id="question5-tag2" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true" contenteditable="false">I wonder...</div>
+        <div data-silex-type="ctat" class="CTATTextInput editable-style silex-id-1656340024821-132 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1656340024821-132" id="question5-3" data-ctat-component="CTATTextInput" data-ctat-enabled="true" data-ctat-tutor ="false"></div>
+   
+   
+    </div>
+
+
+
+
+        <script>
+        var done = document.getElementById("done");
+        done.addEventListener("click", function () {
+            window.location = "Page15.html";
+            CTATScrim.scrim.scrimDown();
+        });
+
+    </script>
+
+
+
+
+
+
+
+</body></html>

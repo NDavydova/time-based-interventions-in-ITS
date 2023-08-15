@@ -1,0 +1,110 @@
+<!DOCTYPE html><html><head>    
+    <meta charset="UTF-8">
+    <!-- generator meta tag -->
+    <!-- leave this for stats and Silex version check -->
+    <meta name="generator" content="Silex v2.2.5">
+    <!-- End of generator meta tag -->
+    <!--CSS-->
+    <link data-silex-static="true" href="https://cdn.ctat.cs.cmu.edu/html-editor/css/silex/normalize.css" rel="stylesheet">
+    <link data-silex-static="true" href="https://cdn.ctat.cs.cmu.edu/html-editor/css/silex/front-end.css" rel="stylesheet">
+    <link data-silex-static="true" href="https://cdn.ctat.cs.cmu.edu/releases/current/CTAT.css" rel="stylesheet">
+  <style>
+        .CTAT-done-button--icon { /* for the checkmark */
+            font-size: 0px;
+        }
+
+
+    </style>
+
+    <script>
+        var myVars =
+        {
+            question_file: "../FinalBRDs/Page1.brd",
+            tutoring_service_communication: "javascript",
+
+//logging parameters
+dataset_level_name: "Demographics",
+dataset_level_type: "Demographics",
+dataset_name:"ExperimentalGroup",
+Logging:"ClientToLogServer",
+log_service_url:"http://83.212.82.142/data.log",
+problem_name:"Demographics",
+};
+
+
+
+function ctatOnload () {
+initTutor(myVars);
+CTATConfiguration.set("user_guid", localStorage.getItem("studentID"));
+
+var loggingLibrary=CTATCommShell.getLoggingLibrary();
+loggingLibrary.start();
+
+
+loggingLibrary.assignLogListener (function logListener (aMessage)
+{
+console.log ("Log message: " + aMessage );
+
+ });
+}
+
+        var CTATLanguagePack =
+        {
+            "DONE": "Next",
+        };
+
+        </script>
+    <script data-silex-static="true" type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/html-editor/js/jquery.js"></script>
+    <script data-silex-static="true" type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/html-editor/js/jquery-ui.js"></script>
+    <script data-silex-static="true" type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/releases/current/nools.js"></script>
+    <script data-silex-static="true" type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/releases/current/ctatloader.js"></script>
+    <script data-silex-static="true" type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/html-editor/js/ctat/ctat.min.js"></script>
+    
+    
+    
+
+    
+
+
+
+    <style type="text/css" class="silex-style"></style>
+    
+    <meta name="interface-id" content="Page15">
+
+    
+
+    <style id="current-page-style">
+        .page-page-1{display:inherit; }
+    </style>
+    <!-- Silex HEAD tag do not remove -->
+    <!-- End of Silex HEAD tag do not remove -->
+<link rel="stylesheet" href="Assets/Page15-styles.css"></head><body class="body-initial prevent-draggable silex-runtime silex-published">
+    <a id="page-page-1" data-silex-type="page" class="page-element">Page 1</a>
+       
+   
+    <div data-silex-id="background-initial" class="background background-initial editable-style container-element prevent-draggable" data-silex-type="container">
+       <div data-silex-type="text" class="CTATTextField editable-style silex-id-1653920984996-4 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1653920984996-4" id="ctatdiv11" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true" contenteditable="false"><a href= "mailto:nadiya.davydova@stud.uni-due.de">Nadiya Davydova</a> | University of Duisburg-Essen - 2022</div>
+  <div data-silex-type="text" class="CTATTextField editable-style silex-id-1654686497762-0 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1654686497762-0" id="ctatdiv3" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true" contenteditable="false">What is your age?</div>
+        <div data-silex-type="ctat" class="CTATTextInput editable-style silex-id-1654687982935-1 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1654687982935-1" id="age" data-ctat-component="CTATTextInput" data-ctat-enabled="true" maxlength="2" data-ctat-disable-on-correct="false" data-ctat-show-hint-highlight="false" data-ctat-show-feedback="false" data-ctat-tutor="false"></div>
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1654688051983-2 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1654688051983-2" id="ctatdiv10" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true" contenteditable="false">years</div>
+        <div data-silex-type="ctat" id="done" class="CTATDoneButton editable-style silex-id-1654688198817-3 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1654688198817-3" data-ctat-component="CTATDoneButton" data-ctat-enabled="true"></div>
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1654688206839-4 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1654688206839-4" id="ctatdiv15" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true"  contenteditable="false">What is your gender?</div>
+        <div data-silex-type="ctat" class="CTATComboBox editable-style silex-id-1654688246873-5 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1654688246873-5" id="ctatdiv18" data-ctat-component="CTATComboBox" data-ctat-enabled="true"  data-ctat-show-feedback="false" data-ctat-show-hint-highlight="false" data-ctat-disable-on-correct="false" data-ctat-tutor ="false" data-ctat-labels="----, male, female, divers, prefer not to answer"></div>
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1654688285848-6 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1654688285848-6" id="ctatdiv22" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true" contenteditable="false">What is the highest degree or level of education you have completed?</div>
+        <div data-silex-type="ctat" class="CTATComboBox editable-style silex-id-1654688394190-7 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1654688394190-7" id="ctatdiv25" data-ctat-component="CTATComboBox" data-ctat-enabled="true"  data-ctat-show-feedback="false" data-ctat-show-hint-highlight="false" data-ctat-disable-on-correct="false" data-ctat-tutor ="false" data-ctat-labels="----, High School, Bachelor's Degree, Master's Degree, Ph.D. or higher, Prefer not to say"></div>
+    </div>
+
+
+
+        <script>
+        var done = document.getElementById("done");
+        done.addEventListener("click", function () {
+            window.location = "Page16.html";
+            CTATScrim.scrim.scrimDown();
+        });
+
+    </script>
+
+
+
+</body></html>
