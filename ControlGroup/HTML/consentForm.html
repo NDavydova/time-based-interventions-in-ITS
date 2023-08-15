@@ -1,0 +1,160 @@
+<!DOCTYPE html><html><head>    
+    <meta charset="UTF-8">
+    <!-- generator meta tag -->
+    <!-- leave this for stats and Silex version check -->
+    <meta name="generator" content="Silex v2.2.5">
+    <!-- End of generator meta tag -->
+    <!--CSS-->
+    <link data-silex-static="true" href="https://cdn.ctat.cs.cmu.edu/html-editor/css/silex/normalize.css" rel="stylesheet">
+    <link data-silex-static="true" href="https://cdn.ctat.cs.cmu.edu/html-editor/css/silex/front-end.css" rel="stylesheet">
+    <link data-silex-static="true" href="https://cdn.ctat.cs.cmu.edu/releases/current/CTAT.css" rel="stylesheet">
+     <style>
+        .CTAT-done-button--icon { /* for the checkmark */
+            font-size: 0px;
+            pointer-events: none;
+            height: 0%;
+        }
+    </style>
+    <!--JS-->
+
+    <script>
+
+        var myVars =
+        {
+            question_file: "../FinalBRDs/consentForm.brd",
+            tutoring_service_communication: "javascript",
+
+//logging parameters
+dataset_level_name: "consentForm",
+dataset_level_type: "consentForm",
+dataset_name:"ControlGroup",
+Logging:"ClientToLogServer",
+log_service_url:"http://83.212.82.164/data.log",
+problem_name:"consentForm",
+};
+
+
+
+
+function ctatOnload () {
+initTutor(myVars);
+CTATConfiguration.set("user_guid", localStorage.getItem("studentID"));
+
+var loggingLibrary= CTATCommShell.commShell.getLoggingLibrary();
+loggingLibrary.start();
+
+
+loggingLibrary.assignLogListener (function logListener (aMessage)
+{
+console.log ("Log message: " + aMessage );
+
+ });
+}
+
+        var CTATLanguagePack =
+        {
+            "DONE": "I agree",
+        };
+    
+    
+    </script>
+
+
+    <script data-silex-static="true" type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/html-editor/js/jquery.js"></script>
+    <script data-silex-static="true" type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/html-editor/js/jquery-ui.js"></script>
+    <script data-silex-static="true" type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/releases/current/nools.js"></script>
+    <script data-silex-static="true" type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/releases/current/ctatloader.js"></script>
+    <script data-silex-static="true" type="text/javascript" src="https://cdn.ctat.cs.cmu.edu/html-editor/js/ctat/ctat.min.js"></script>
+    
+    
+    
+
+    
+
+
+
+    <style type="text/css" class="silex-style"></style>
+    
+    <meta name="interface-id" content="consentForm">
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+    <style id="current-page-style">
+        .page-page-1{display:inherit; }
+    </style>
+    <!-- Silex HEAD tag do not remove -->
+    <!-- End of Silex HEAD tag do not remove -->
+<link rel="stylesheet" href="Assets/consentForm-styles.css"></head><body class="body-initial prevent-draggable silex-runtime silex-published">
+   <a id="page-page-1" data-silex-type="page" class="page-element">Page 1</a>
+    <div data-silex-id="background-initial" class="background background-initial editable-style container-element prevent-draggable" data-silex-type="container">
+        <div data-silex-type="image" class="editable-style silex-id-1653920762115-0 image-element page-page-1 paged-element" data-silex-id="silex-id-1653920762115-0"><img class="silex-element-content" src="Assets/fittosize__600_0_e69a140b8aa7c2335680d2e907a0c6bb_logo_claim_vorschau_png.png"></div>
+
+
+        <div data-silex-type="text" class="CTATTextField editable-style silex-id-1653923370609-5 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1653923370609-5" id="ctatdiv14" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true" contenteditable="false">Research Study: Time-based interventions in Intelligent Tutoring Systems
+            <br>Researcher: Nadiya Davydova, Jun.-Prof. Dr. Irene-Angelica Chounta
+            <br>
+            <br>PARTICIPATION IN THIS RESEARCH STUDY IS VOLUNTARY
+            <br>- I have read and understood the study information, or it has been read to me. I have been able to ask questions about the study and my questions have been answered to my satisfaction.
+            <br>- I am age 18 or older, I have read and understood the above information and I wish to participate in the research.
+            <br>- I consent voluntarily to be a participant in this study and understand that I can refuse to answer questions and that I can withdraw from the study at any time, without having to give a reason.
+            <br>- I understand that data will be collected during the study.
+            <br>- I understand that the information I provide will be used for research purposes and academic publications and that the information will be anonymized.
+            <br>- I understand that any personal information that can identify me - such as my name, email address, will be kept confidential and not shared with anyone beyond the responsible researchers.
+            <br>- I give permission for the anonymized information I provide to be deposited in a data archive so that it may be used for future research.
+            <br>
+            <br>
+            <br>Participant name:
+            <br>
+            <br>By clicking on the "I Agree"-button, you confirm that you have understood the study information, and that you wish to participate.</div>
+        <div data-silex-type="ctat" id="done" class="CTATDoneButton editable-style silex-id-1653924776069-6 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1653924776069-6" data-ctat-component="CTATDoneButton" data-ctat-enabled="true"></div>
+        <div data-silex-type="image" class="editable-style silex-id-1653920776911-1 image-element page-page-1 paged-element" data-silex-id="silex-id-1653920776911-1"><img class="silex-element-content" src="Assets/letterbox__230_90_trans_85ae1ada65553b5adfe8a9446dcd5985_colapslogo.png"></div>
+        <div data-silex-type="ctat" class="CTATTextInput editable-style silex-id-1656613238448-1 page-page-1 paged-element CTATComponent" data-ctat-tabindex="1" data-silex-id="silex-id-1656613238448-1" id="consentForm" data-ctat-component="CTATTextInput"  data-ctat-enabled="true" data-ctat-show-feedback="false" data-ctat-show-hint-highlight="false" data-ctat-disable-on-correct="false" data-ctat-tutor="false"></div>
+ 
+    <div data-silex-type="text" class="CTATTextField editable-style silex-id-1656611228082-0 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1656611228082-0" id="ctatdiv9" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true" contenteditable="false">CONSENT FORM</div>
+  <div data-silex-type="text" class="CTATTextField editable-style silex-id-1653920984996-4 text-element page-page-1 paged-element CTATComponent" data-silex-id="silex-id-1653920984996-4" id="ctatdiv11" data-ctat-component="CTATTextBasedComponent" data-ctat-enabled="true" contenteditable="false"><a href= "mailto:nadiya.davydova@stud.uni-due.de">Nadiya Davydova</a> | University of Duisburg-Essen - 2022</div>
+
+        </div>
+
+
+  <script>
+    var filledOut = false;
+    var input = document.getElementById("consentForm");
+
+      
+    input.addEventListener('input', function () {
+            filledOut=true;
+    });
+
+     var done = document.getElementById("done");
+     done.addEventListener("click", function () {   
+         if (filledOut) {
+            document.location.href = "Page2.html";
+            CTATScrim.scrim.scrimDown(); }
+            else {
+
+             var myScrim = new CTATScrim();
+             myScrim.OKScrimUp("Please fill out your name.");
+            }
+         
+     });
+
+
+
+    </script>
+
+
+</body></html>
+
+
+

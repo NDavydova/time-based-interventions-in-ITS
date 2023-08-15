@@ -1,0 +1,71 @@
+
+
+        .body-initial {background-color: rgb(232, 232, 232);
+        }
+        .background-initial {background-color: rgb(255, 255, 255); top: 5px; left: 154px; width: 900px; height: 700px;
+        }
+        .silex-id-1654266430655-13 {top: 60px; left: 40px; height: 20px; width: 560px; font-family: Tahoma, Geneva, sans-serif;
+        }
+        .silex-id-1654267964865-16 {top: 140px; left: 80px; height: 20px; width: 100px;
+        }
+        .silex-id-1654267990773-17 {top: 180px; left: 80px; height: 20px; width: 100px;
+        }
+        .silex-id-1654268791866-23 {top: 180px; left: 160px; height: 20px; width: 260px;
+        }
+        .silex-id-1654267254780-14 {top: 100px; left: 160px; height: 20px; width: 260px; font-weight: bold;
+        }
+        .silex-id-1654268773277-22 {top: 140px; left: 160px; height: 20px; width: 260px;
+        }
+        .silex-id-1654268974689-26 {top: 650px; left: 820px; height: 25px; width: 64px;  
+        }
+        .silex-id-1654268022835-19 {top: 220px; left: 80px; height: 20px; width: 100px;
+        }
+        .silex-id-1654268822558-25 {top: 260px; left: 160px; height: 20px; width: 260px; font-weight: bold; color: rgb(24, 138, 19);
+        }
+        .silex-id-1654603509678-31 {top: 220px; left: 160px; height: 1.4em; width: 260px;
+        }
+        .silex-id-1654603520739-33 {top: 260px; left: 80px; height: 20px; width: 80px;
+        }
+        .silex-id-1654603170252-30 {top: 155px; left: 480px; height: 64px; width: 80px;
+        }
+    
+         .silex-id-1654268974689-26  > button {border-color: rgb(128, 128, 128); border-width: 0px; border-style: solid; background-color: rgb(21, 76, 147); color: rgb(255, 255, 255); font-family: Tahoma, Geneva, sans-serif;  border-radius: 2px; 
+        }
+
+        .silex-id-1654268974689-26   > button:hover {
+                    background-color: rgb(19 63 119);  }
+
+      
+        .silex-id-1654177256920-4 {top: 350px; left: 75px; height: 80px; 
+        }
+
+        .silex-id-1653920984996-4 {top: 700px; left: 10px; height: 40px; width: 560px; font-family: Tahoma, Geneva, sans-serif; font-size: 14px; color: rgb(40, 40, 40); 
+        }
+
+
+        .silex-id-1654177256920-40 {top: 92px; left: 445px; height: 210px; width: 357px; visibility: hidden;
+        }
+      
+        .silex-id-1654177256920-400 {top: 90px; left: 60px; height: 211px; width: 385px; 
+        }
+    
+
+        .silex-id-1654267964865-160 {top: 300px; left: 63px; height: 20px; width: 560px; font-family: Tahoma, Geneva, sans-serif; font-size: 12px;
+        }
+
+
+
+        .silex-id-1654603170252-30 > button {
+    background-color: rgb(150 150 150);
+    color: rgb(255, 255, 255);
+    border: hidden;
+    font-family: Tahoma, Geneva, sans-serif; 
+}
+
+    .silex-id-1654603170252-30 > button:hover {
+        background-color: rgb(100 100 100)
+    }
+
+.CTAT-hint-button--clicked {
+    background-color: rgb(100 100 100);
+}
